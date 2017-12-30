@@ -15,7 +15,6 @@ gem 'materialize-sass'  # adding materialize css
 group :development, :test do
   gem 'capybara'
   gem 'dotenv-rails'  # handling the environmental variables
-  gem 'factory_girl_rails'
   gem 'rspec-rails', '~> 3.0'
   gem 'rails-controller-testing'  # ability to test controllers with rspec
   gem 'pry-rails'
