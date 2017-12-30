@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width">
+    <title>Greg Nalehach, Web Developer</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%= javascript_include_tag 'application' %>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  </head>
+
+  <header>
+    <% if current_user && current_user.admin %>
+    <div class="navbar-fixed">
+      <nav class="grey darken-3 black-text">
+        <div class="nav-wrapper">
+          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+          <ul class="left hide-on-med-and-down compress">
+              <li><%= link_to "Sign out", destroy_user_session_path, :method => :delete %></li>
+              <li><%= link_to "Profile", current_user %> </li>
+              <li><%= link_to "My projects", projects_path %></li>
+          </ul>
+          <ul class="side-nav flow-text" id="mobile-demo">
+              <li><%= link_to "Profile", current_user %> </li>
+              <li><%= link_to "My projects", projects_path %></li>
+              <li><%= link_to "Sign out", destroy_user_session_path, :method => :delete %></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <% end %>
+  </header>
+  <body>
+    <%= yield %>
+  </body>
+  <script>
+    $('.button-collapse').sideNav();
+  </script>
+</html>
