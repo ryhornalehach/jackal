@@ -1,4 +1,6 @@
-[ ![Codeship Status for ryhornalehach/gregnalehach](https://app.codeship.com/projects/e12ec0c0-bb54-0135-598e-7277cb23256d/status?branch=master)](https://app.codeship.com/projects/259331)
+[ ![Codeship Status for ryhornalehach/jackal](https://app.codeship.com/projects/a9c580b0-cfd6-0135-a119-523bd0538b6a/status?branch=master)](https://app.codeship.com/projects/262268)
+[![Coverage Status](https://coveralls.io/repos/github/ryhornalehach/jackal/badge.svg?branch=master)](https://coveralls.io/github/ryhornalehach/jackal?branch=master)
+[![Maintainability](https://api.codeclimate.com/v1/badges/86b1388238faf3667f88/maintainability)](https://codeclimate.com/github/ryhornalehach/jackal/maintainability)
 
 # Developed by: Ryhor (Greg) Nalehach
 Jackal board game
