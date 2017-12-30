@@ -1,7 +1,7 @@
 [ ![Codeship Status for ryhornalehach/gregnalehach](https://app.codeship.com/projects/e12ec0c0-bb54-0135-598e-7277cb23256d/status?branch=master)](https://app.codeship.com/projects/259331)
 
 # Developed by: Ryhor (Greg) Nalehach
-Personal portfolio website.
+Jackal board game
 
 # Technologies used in the app:
   1. Ruby on Rails
