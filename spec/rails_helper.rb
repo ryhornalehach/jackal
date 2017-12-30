@@ -63,5 +63,5 @@ require 'rails-controller-testing'
 Rails::Controller::Testing.install
 
 RSpec.configure do |config|
-    config.include FactoryGirl::Syntax::Methods
+
 end
